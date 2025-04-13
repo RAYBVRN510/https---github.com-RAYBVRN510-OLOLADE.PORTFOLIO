@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[collection]","\u002Ffree-open-source-svg-icons\u002F[collectionSlug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

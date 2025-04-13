@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="hero">
+        <div class="head">
+          <img
+            src="./assets/images/Screenshot 2025-04-13 203102.png"
+            alt=""
+            class="logo"
+          />
+          <div onclick="toggleMenu()" class="hamburger">
+            <img src="./assets/icons/hamburger.svg" alt="" />
+          </div>
+
+          <nav class="menu">
+            <a href="#">𝙷𝚘𝚖𝚎</a>
+            <a href="#" onclick="scrollToClass()">𝙰𝚋𝚘𝚞𝚝</a>
+            <a href="#">𝙲𝚘𝚗𝚝𝚊𝚌𝚝</a>
+          </nav>
+        </div>
+        <div class="hero-details">
+          <h1>"𝙱𝚛𝚒𝚗𝚐𝚒𝚗𝚐 𝙸𝚍𝚎𝚊𝚜 𝚝𝚘 𝙻𝚒𝚏𝚎 𝚠𝚒𝚝𝚑 𝙿𝚊𝚜𝚜𝚒𝚘𝚗 & 𝙿𝚛𝚎𝚌𝚒𝚜𝚒𝚘𝚗"</h1>
+          <p>
+            𝚆𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚖𝚢 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 𝚜𝚙𝚊𝚌𝚎! 𝙸'𝚖 <span>𝙾𝙻𝙾𝙻𝙰𝙳𝙴</span>, 𝚊
+            <span>𝖋𝖚𝖑𝖑𝖘𝖙𝖆𝖈𝖐 𝖜𝖊𝖇 𝖉𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗</span>
+            𝚍𝚎𝚍𝚒𝚌𝚊𝚝𝚎𝚍 𝚝𝚘 𝚝𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚒𝚗𝚐 𝚟𝚒𝚜𝚒𝚘𝚗𝚜 𝚒𝚗𝚝𝚘 𝚛𝚎𝚊𝚕𝚒𝚝𝚢. 𝙴𝚡𝚙𝚕𝚘𝚛𝚎 𝚖𝚢 𝚠𝚘𝚛𝚔,
+            𝚍𝚒𝚜𝚌𝚘𝚟𝚎𝚛 𝚖𝚢 𝚓𝚘𝚞𝚛𝚗𝚎𝚢, 𝚊𝚗𝚍 𝚕𝚎𝚝’𝚜 𝚋𝚞𝚒𝚕𝚍 𝚜𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚒𝚗𝚌𝚛𝚎𝚍𝚒𝚋𝚕𝚎 𝚝𝚘𝚐𝚎𝚝𝚑𝚎𝚛.
+          </p>
+        </div>
+        <div class="repo-num">
+          <div class="repo">
+            <img
+              src="./assets/icons/connected-16-regular.svg"
+              alt=""
+              class="icon"
+            />
+            <p>𝟷𝟻 𝚌𝚘𝚖𝚖𝚒𝚝𝚜</p>
+          </div>
+          <div class="repo">
+            <img src="./assets/icons/hierarchy-10.svg" alt="" class="icon" />
+            <p>𝟹 𝚛𝚎𝚙𝚘 𝚏𝚘𝚕𝚔𝚜</p>
+          </div>
+          <div class="repo">
+            <img src="./assets/icons/people-bottom.svg" alt="" class="icon" />
+            <p>𝟻 𝙶𝚒𝚝𝚑𝚞𝚋 𝚏𝚘𝚕𝚕𝚘𝚠𝚎𝚛𝚜</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="me">
+          <h2><strong> "𝙰 𝚂𝚝𝚘𝚛𝚢 𝙱𝚎𝚑𝚒𝚗𝚍 𝙴𝚟𝚎𝚛𝚢 𝙲𝚛𝚎𝚊𝚝𝚒𝚘𝚗" </strong></h2>
+          <p>
+            𝙸 𝚑𝚊𝚟𝚎 𝚋𝚎𝚎𝚗 𝚌𝚘𝚍𝚒𝚗𝚐 𝚏𝚘𝚛 𝚘𝚟𝚎𝚛 𝟻 𝚢𝚎𝚊𝚛𝚜, 𝚋𝚎𝚐𝚒𝚗𝚗𝚒𝚗𝚐 𝚖𝚢 𝚓𝚘𝚞𝚛𝚗𝚎𝚢 𝚒𝚗 𝟸0𝟸0.
+            𝙸𝚗𝚒𝚝𝚒𝚊𝚕𝚕𝚢, 𝙸 𝚕𝚎𝚊𝚛𝚗𝚎𝚍 𝙷𝚃𝙼𝙻, 𝙲𝚂𝚂, 𝚊𝚗𝚍 𝙹𝚊𝚟𝚊𝚂𝚌𝚛𝚒𝚙𝚝 𝚝𝚘 𝚋𝚞𝚒𝚕𝚍 𝚠𝚎𝚋𝚜𝚒𝚝𝚎𝚜.
+          </p>
+          <p>
+            𝙼𝚢 𝚏𝚒𝚛𝚜𝚝 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚠𝚊𝚜 𝚊 𝚜𝚒𝚖𝚙𝚕𝚎 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚋𝚞𝚒𝚕𝚝 𝚠𝚒𝚝𝚑 𝙷𝚃𝙼𝙻, 𝙲𝚂𝚂, 𝚊𝚗𝚍
+            𝙹𝚊𝚟𝚊𝚂𝚌𝚛𝚒𝚙𝚝 (~𝚖𝚒𝚍-𝟸0𝟸0).
+          </p>
+          <p>𝙰𝚜 𝙸 𝚙𝚛𝚘𝚐𝚛𝚎𝚜𝚜𝚎𝚍, 𝙸 𝚏𝚘𝚌𝚞𝚜𝚎𝚍 𝚑𝚎𝚊𝚟𝚒𝚕𝚢 𝚘𝚗 𝙽𝚘𝚍𝚎.𝚓𝚜 𝚊𝚗𝚍 𝙴𝚡𝚙𝚛𝚎𝚜𝚜.𝚓𝚜.</p>
+          <p>
+            𝙸 𝚋𝚎𝚕𝚒𝚎𝚟𝚎 𝚐𝚛𝚎𝚊𝚝 𝚠𝚘𝚛𝚔 𝚒𝚜 𝚋𝚞𝚒𝚕𝚝 𝚘𝚗 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚒𝚝𝚢, 𝚍𝚎𝚍𝚒𝚌𝚊𝚝𝚒𝚘𝚗, 𝚊𝚗𝚍 𝚊 𝚍𝚛𝚒𝚟𝚎
+            𝚏𝚘𝚛 𝚎𝚡𝚌𝚎𝚕𝚕𝚎𝚗𝚌𝚎. 𝙻𝚎𝚝'𝚜 𝚌𝚘𝚗𝚗𝚎𝚌𝚝 𝚊𝚗𝚍 𝚌𝚛𝚎𝚊𝚝𝚎 𝚜𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚊𝚖𝚊𝚣𝚒𝚗𝚐!
+          </p>
+          <div class="button">
+            <p id="github">
+              <a href=""
+                ><img src="./assets/icons/github.svg" alt="" class="icon" />
+                𝚅𝚒𝚎𝚠 𝚖𝚢 𝙶𝚒𝚝𝚑𝚞𝚋
+                <img
+                  src="./assets/icons/direction-straight-right.svg"
+                  alt=""
+                  class="icon"
+              /></a>
+            </p>
+            <p id="contact">
+              <a href=""
+                >𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎
+                <img
+                  src="./assets/icons/direction-straight-right.svg"
+                  alt=""
+                  class="icon"
+              /></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="mission">
+          <div class="mission-logo">
+            <img src="./assets/icons/coding.png" alt="" class="mission-icon" />
+            <p>𝙼𝚈 𝙿𝙻𝙰𝚈𝙶𝚁𝙾𝚄𝙽𝙳</p>
+          </div>
+          <p>
+            𝚒𝚜 𝚖𝚘𝚛𝚎 𝚝𝚑𝚊𝚗 𝚊 𝚙𝚘𝚛𝚝𝚏𝚘𝚕𝚒𝚘; 𝚒𝚝'𝚜 𝚊 𝚠𝚒𝚗𝚍𝚘𝚠 𝚒𝚗𝚝𝚘 𝚖𝚢 𝚠𝚘𝚛𝚕𝚍, 𝚠𝚑𝚎𝚛𝚎 𝚙𝚊𝚜𝚜𝚒𝚘𝚗
+            𝚖𝚎𝚎𝚝𝚜 𝚙𝚞𝚛𝚙𝚘𝚜𝚎. <br />
+            𝙳𝚒𝚜𝚌𝚘𝚟𝚎𝚛 𝚖𝚢 𝚠𝚘𝚛𝚔.
+          </p>
+          <div class="download">
+            <p><a href="">𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝙲𝚅</a></p>
+          </div>
+          <div class="Offer">
+            <div class="web">
+              <img
+                src="./assets/icons/computer.png"
+                alt=""
+                class="mission-icon"
+              />
+              <h3>𝚆𝚎𝚋 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝</h3>
+              <p>
+                𝙱𝚞𝚒𝚕𝚍𝚒𝚗𝚐 𝚑𝚒𝚐𝚑-𝚙𝚎𝚛𝚏𝚘𝚛𝚖𝚊𝚗𝚌𝚎 𝚠𝚎𝚋𝚜𝚒𝚝𝚎𝚜 𝚠𝚒𝚝𝚑 𝚌𝚕𝚎𝚊𝚗 𝚌𝚘𝚍𝚎 𝚊𝚗𝚍 𝚜𝚝𝚛𝚘𝚗𝚐
+                𝚂𝙴𝙾 𝚏𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜.
+              </p>
+            </div>
+
+            <div class="web">
+              <img
+                src="./assets/icons/design-thinking.png"
+                alt=""
+                class="mission-icon"
+              />
+              <h3>𝙳𝚎𝚜𝚒𝚐𝚗</h3>
+              <p>
+                𝙲𝚛𝚊𝚏𝚝𝚒𝚗𝚐 𝚍𝚎𝚜𝚒𝚐𝚗𝚜 𝚝𝚑𝚊𝚝 𝚜𝚎𝚊𝚖𝚕𝚎𝚜𝚜𝚕𝚢 𝚋𝚕𝚎𝚗𝚍 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝚊𝚗𝚍
+                𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚒𝚝𝚢, 𝚝𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚒𝚗𝚐 𝚒𝚍𝚎𝚊𝚜 𝚒𝚗𝚝𝚘 𝚒𝚖𝚙𝚊𝚌𝚝𝚏𝚞𝚕 𝚟𝚒𝚜𝚞𝚊𝚕𝚜.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project">
+        <h2>𝚁𝙴𝙲𝙴𝙽𝚃 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂.</h2>
+        <p>"𝚆𝚑𝚎𝚛𝚎 𝙸𝚍𝚎𝚊𝚜 𝚃𝚊𝚔𝚎 𝚂𝚑𝚊𝚙𝚎"</p>
+        <p>
+          𝙳𝚒𝚟𝚎 𝚒𝚗𝚝𝚘 𝚖𝚢 𝚕𝚊𝚝𝚎𝚜𝚝 𝚙𝚛𝚘𝚓𝚎𝚌𝚝𝚜 𝚊𝚗𝚍 𝚜𝚎𝚎 𝚑𝚘𝚠 𝙸 𝚋𝚛𝚒𝚗𝚐 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚝𝚘 𝚕𝚒𝚏𝚎.
+          𝚆𝚑𝚎𝚝𝚑𝚎𝚛 𝚒𝚝'𝚜 [𝚍𝚎𝚜𝚒𝚐𝚗, 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝, 𝚠𝚛𝚒𝚝𝚒𝚗𝚐, 𝚎𝚝𝚌.], 𝚖𝚢 𝚠𝚘𝚛𝚔 𝚜𝚙𝚎𝚊𝚔𝚜 𝚏𝚘𝚛
+          𝚒𝚝𝚜𝚎𝚕𝚏. 𝙴𝚊𝚌𝚑 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚜𝚑𝚘𝚠𝚌𝚊𝚜𝚎𝚜 𝚊 𝚌𝚘𝚖𝚖𝚒𝚝𝚖𝚎𝚗𝚝 𝚝𝚘 𝚚𝚞𝚊𝚕𝚒𝚝𝚢, 𝚒𝚗𝚗𝚘𝚟𝚊𝚝𝚒𝚘𝚗,
+          𝚊𝚗𝚍 𝚒𝚖𝚙𝚊𝚌𝚝.
+        </p>
+
+        <div class="ECMS">
+          <h2>𝙴𝙻𝙴𝙲𝚃𝚁𝙸𝙲𝙸𝚃𝚈 𝙲𝙾𝙽𝚂𝚄𝙼𝙿𝚃𝙸𝙾𝙽 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝚂𝙸𝚃𝙴 (𝙴𝙲𝙼𝚂)</h2>
+          <p>November 26, 2024 - Now</p>
+          <p>
+            𝙰𝚗 𝚎𝚕𝚎𝚌𝚝𝚛𝚒𝚌𝚒𝚝𝚢 𝚌𝚘𝚗𝚜𝚞𝚖𝚙𝚝𝚒𝚘𝚗 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖 𝚒𝚗𝚝𝚎𝚐𝚛𝚊𝚝𝚎𝚜 𝚜𝚎𝚊𝚖𝚕𝚎𝚜𝚜𝚕𝚢
+            𝚠𝚒𝚝𝚑 𝚘𝚞𝚛 𝚊𝚍𝚟𝚊𝚗𝚌𝚎𝚍 𝚠𝚎𝚋 𝚊𝚗𝚍 𝚊𝚙𝚙 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝 𝚜𝚘𝚕𝚞𝚝𝚒𝚘𝚗𝚜. 𝙴𝚖𝚙𝚘𝚠𝚎𝚛 𝚞𝚜𝚎𝚛𝚜
+            𝚝𝚘 𝚝𝚛𝚊𝚌𝚔, 𝚊𝚗𝚊𝚕𝚢𝚣𝚎, 𝚊𝚗𝚍 𝚘𝚙𝚝𝚒𝚖𝚒𝚣𝚎 𝚝𝚑𝚎𝚒𝚛 𝚎𝚗𝚎𝚛𝚐𝚢 𝚞𝚜𝚊𝚐𝚎 𝚎𝚏𝚏𝚘𝚛𝚝𝚕𝚎𝚜𝚜𝚕𝚢.
+            𝚆𝚒𝚝𝚑 𝚒𝚗𝚝𝚎𝚛𝚊𝚌𝚝𝚒𝚟𝚎 𝚍𝚊𝚜𝚑𝚋𝚘𝚊𝚛𝚍𝚜, 𝚜𝚖𝚊𝚛𝚝 𝚊𝚞𝚝𝚘𝚖𝚊𝚝𝚒𝚘𝚗, 𝚊𝚗𝚍 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕𝚒𝚣𝚎𝚍
+            𝚛𝚎𝚌𝚘𝚖𝚖𝚎𝚗𝚍𝚊𝚝𝚒𝚘𝚗𝚜, 𝚋𝚞𝚜𝚒𝚗𝚎𝚜𝚜𝚎𝚜 𝚊𝚗𝚍 𝚒𝚗𝚍𝚒𝚟𝚒𝚍𝚞𝚊𝚕𝚜 𝚌𝚊𝚗 𝚛𝚎𝚍𝚞𝚌𝚎 𝚌𝚘𝚜𝚝𝚜,
+            𝚎𝚗𝚑𝚊𝚗𝚌𝚎 𝚎𝚏𝚏𝚒𝚌𝚒𝚎𝚗𝚌𝚢, 𝚊𝚗𝚍 𝚎𝚖𝚋𝚛𝚊𝚌𝚎 𝚜𝚞𝚜𝚝𝚊𝚒𝚗𝚊𝚋𝚕𝚎 𝚎𝚗𝚎𝚛𝚐𝚢 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝—𝚊𝚕𝚕
+            𝚠𝚒𝚝𝚑𝚒𝚗 𝚊 𝚜𝚕𝚎𝚎𝚔, 𝚞𝚜𝚎𝚛-𝚏𝚛𝚒𝚎𝚗𝚍𝚕𝚢 𝚍𝚒𝚐𝚒𝚝𝚊𝚕 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎.
+          </p>
+          <img src="./assets/images/Screenshot 2025-04-13 165853.png" alt="" />
+          <div class="stark">
+            <p>
+              <a href=""> <img src="./assets/icons/html-5.png" alt="" />𝙷𝚝𝚖𝚕</a>
+            </p>
+            <p>
+              <a href=""><img src="./assets/icons/css.png" alt="" />𝙲𝚜𝚜</a>
+            </p>
+            <p>
+              <a href=""
+                ><img src="./assets/icons/js.png" alt="" />𝙹𝚊𝚟𝚊𝚜𝚌𝚛𝚒𝚙𝚝</a
+              >
+            </p>
+          </div>
+          <p>
+            <a href=""
+              ><img src="./assets/icons/icons8-link-52.png" alt="" /> 𝚅𝚒𝚜𝚒𝚝
+              𝚆𝚎𝚋𝚜𝚒𝚝𝚎
+              <img src="./assets/icons/direction-straight-right.svg" alt=""
+            /></a>
+          </p>
+        </div>
+      </section>
+
+      <section class="tech">
+        <h2>𝚃𝚎𝚌𝚑𝚗𝚘𝚕𝚘𝚐𝚒𝚎𝚜 𝙸 𝚞𝚜𝚎.</h2>
+        <p>
+          𝙾𝚟𝚎𝚛 𝚝𝚑𝚎 𝚢𝚎𝚊𝚛𝚜, 𝙸 𝚑𝚊𝚟𝚎 𝚠𝚘𝚛𝚔𝚎𝚍 𝚠𝚒𝚝𝚑 𝚊 𝚟𝚊𝚛𝚒𝚎𝚝𝚢 𝚘𝚏 𝚝𝚎𝚌𝚑𝚗𝚘𝚕𝚘𝚐𝚒𝚎𝚜. 𝙷𝚎𝚛𝚎 𝚊𝚛𝚎
+          𝚜𝚘𝚖𝚎 𝚘𝚏 𝚝𝚑𝚎 𝚝𝚎𝚌𝚑𝚗𝚘𝚕𝚘𝚐𝚒𝚎𝚜 𝙸 𝚑𝚊𝚟𝚎 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎 𝚠𝚒𝚝𝚑:
+        </p>
+
+        <div class="mytech">
+          <div>
+            <p>
+              <a href=""><img src="./assets/icons/html-5.png" alt="" /> 𝙷𝚝𝚖𝚕</a>
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""><img src="./assets/icons/css.png" alt="" /> 𝙲𝚂𝚂</a>
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="./assets/icons/js.png" alt="" /> 𝙹𝚊𝚟𝚊𝚜𝚌𝚛𝚒𝚙𝚝</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 50%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="./assets/icons/8546986_node_icon.png" alt="" />
+                𝙽𝚘𝚍𝚎.𝚓𝚜</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 10%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p><a href=""> 𝙴𝚡𝚙𝚛𝚎𝚜𝚜.𝚓𝚜</a></p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 10%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""><img src="./assets/icons/git.svg" alt="" /> 𝙶𝚒𝚝</a>
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 40%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="./assets/icons/github.svg" alt="" /> 𝙶𝚒𝚝𝚑𝚞𝚋</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img
+                  src="./assets/icons/9035134_logo_vercel_icon.png"
+                  alt=""
+                />
+                𝚅𝚎𝚛𝚌𝚎𝚕</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img
+                  src="./assets/icons/4375050_logo_python_icon.png"
+                  alt=""
+                />
+                𝙿𝚢𝚝𝚑𝚘𝚗</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 40%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="./assets/icons/icons8-java-48.png" alt="" /> 𝙹𝚊𝚟𝚊</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 20%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="" alt="" /><img src="./assets/icons/c.svg" alt="" />
+                𝙲</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 30%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="" alt="" /><img src="./assets/icons/" alt="" />
+                𝙲++</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 25%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="./assets/icons/mysql-icon.svg" alt="" /> 𝙼𝚢𝚂𝚀𝙻</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 60%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="./assets/icons/tailwindcss-icon.svg" alt="" />
+                𝚃𝚊𝚒𝚕𝚠𝚒𝚗𝚍</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <a href=""
+                ><img src="./assets/icons/bootstrap.svg" alt="" /> 𝙱𝚘𝚘𝚝𝚜𝚝𝚛𝚊𝚙</a
+              >
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎.</h2>
+        <p>"𝙻𝚎𝚝’𝚜 𝙼𝚊𝚔𝚎 𝚂𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝙶𝚛𝚎𝚊𝚝 𝚃𝚘𝚐𝚎𝚝𝚑𝚎𝚛"</p>
+        <p>
+          𝙷𝚊𝚟𝚎 𝚊 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚒𝚗 𝚖𝚒𝚗𝚍? 𝙻𝚎𝚝’𝚜 𝚌𝚘𝚗𝚗𝚎𝚌𝚝 𝚊𝚗𝚍 𝚍𝚒𝚜𝚌𝚞𝚜𝚜 𝚑𝚘𝚠 𝚠𝚎 𝚌𝚊𝚗 𝚋𝚛𝚒𝚗𝚐
+          𝚢𝚘𝚞𝚛 𝚒𝚍𝚎𝚊𝚜 𝚝𝚘 𝚕𝚒𝚏𝚎. 𝚁𝚎𝚊𝚌𝚑 𝚘𝚞𝚝 𝚟𝚒𝚊 [𝚢𝚘𝚞𝚛 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚍𝚎𝚝𝚊𝚒𝚕𝚜], 𝚊𝚗𝚍 𝚕𝚎𝚝’𝚜
+          𝚜𝚝𝚊𝚛𝚝 𝚜𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚎𝚡𝚌𝚒𝚝𝚒𝚗𝚐!
+        </p>
+        <div class="socials">
+          <a href="www.upwork.com/freelancers/~0140330d76a9e52748"
+            ><img src="./assets/icons/1929180_upwork_icon.png" alt=""
+          /></a>
+          <a href=""
+            ><img
+              src="./assets/icons/4373162_fiverr_logo_logos_icon.png"
+              alt=""
+          /></a>
+          <a
+            href="https://www.instagram.com/literally.sane?igsh=MXV3Y2ppNHVydXZvbQ=="
+            ><img
+              src="./assets/icons/1298747_instagram_brand_logo_social media_icon.png"
+              alt=""
+          /></a>
+          <a href="https://x.com/In54nekeyz?t=OXxOO16k8LrDpR9vx2aMLQ&s=09"
+            ><img
+              src="./assets/icons/11244080_x_twitter_elon musk_twitter new logo_icon.svg"
+              alt=""
+          /></a>
+          <a
+            href="https://www.snapchat.com/add/d.boysheblocked?share_id=C-2_NVGsCO0&locale=en-US"
+            ><img
+              src="./assets/icons/4102574_applications_media_snapchat_social_icon.png"
+              alt=""
+          /></a>
+          <a href="saneoriyomi@gmail.com"
+            ><img src="./assets/icons/8665305_envelope_email_icon.svg" alt=""
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/sanni-toheeb-94a4a624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            ><img
+              src="./assets/icons/5296501_linkedin_network_linkedin logo_icon.png"
+              alt=""
+          /></a>
+          <a href="https://github.com/RAYBVRN510"
+            ><img src="./assets/icons/github.svg" alt=""
+          /></a>
+        </div>
+      </section>
+      <footer>
+        <hr />
+        <p>&copy; 2025 Sanni toheeb. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

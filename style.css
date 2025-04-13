@@ -1,0 +1,425 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero{
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+
+.head{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0 10px;
+    height: 50px;
+}
+
+.logo{
+    height: 80px;
+   
+}
+
+.head>img{
+    height: 30px;
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.hamburger>img{
+    height: 30px;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    background: #333;
+    padding: 10px;
+    
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu a:hover {
+    background: #555;
+}
+
+.icon{
+    height: 15px;
+}
+
+.hero-details{
+   display: block;
+   padding: 0 10px;
+   height: 70vh;
+   background-image: url(./assets/images/pexels-philippedonn-1169754.jpg);
+   border-radius: 20px;
+}
+
+.hero-details>h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.hero-details>p{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.hero-details>p>span{
+    font-size:30px ;
+    font-weight: bolder;
+    
+}
+
+.repo-num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.repo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px ;
+}
+
+.about{
+    padding: 20px
+}
+
+
+
+.button{
+    display: flex;
+    gap: 10px;
+}
+
+#github>a{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#github>a>img{
+    filter: invert(100%);
+    vertical-align: middle;
+    height: 20px;
+}
+
+#contact>a{
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact>a>img{
+    vertical-align: middle;
+}
+
+
+.mission{
+    margin-top: 140px;
+    padding: 20px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+.mission-logo{
+    display: flex;
+    align-items: center;
+}
+
+.mission-icon{
+    height: 30px;
+    padding: 5px;
+    filter: invert(100%); 
+    vertical-align: middle;
+}
+
+.download>p>a{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;  
+    border: 1px solid gray;
+}
+
+.Offer{
+    display: flex;
+    flex-direction: column;
+     gap: 20px;
+}
+
+.web{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 20px; 
+}
+
+.project{
+    padding: 20px;
+}
+
+.project>p{
+    color: gray;
+}
+
+.ECMS>img{
+    width: 100%;
+   border-radius: 20px;
+}
+
+.ECMS>p{
+    color: gray;
+}
+
+.stark{
+    display: flex;
+    gap:20px;
+}
+
+p>a>img{
+    height: 20px;
+    vertical-align: middle;
+}
+
+.stark>p>a{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.ECMS>p>a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.ECMS>p>a>
+img{
+    height: 20px;
+    vertical-align: middle;
+    filter: invert(100%);
+}
+
+.tech{
+    padding: 20px;
+}
+.tech>p{
+    color: gray;
+}
+
+.mytech{
+    display: inline-block;
+    float: none;
+   
+}
+
+.mytech>p>a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.mytech>p>a>img{
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+
+.progress-container {
+    width: 300px;
+    height:5px;
+    background-color: #eee;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50; /* Green progress */
+    position: absolute;
+    transition: width 0.5s ease-in-out;
+}
+
+
+
+.contact{
+    padding: 20px;
+}
+
+.socials{
+    display: flex;
+    gap: 20px;
+}
+.socials>a>img{
+    height: 20px;
+}
+
+footer{
+    padding: 20px;
+}
+
+footer>p{
+    color: gray;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px){
+   body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+    .container{
+        width: 100vw;
+        padding: 40px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        background: none;
+        padding: 10px;
+        color: black;
+    }
+
+    .menu>a{
+        color: black;
+        font-weight: bold;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 90vw;
+    }
+    .hero-details{
+        height: 70vh;
+        width: 90vw;
+    }
+    .hero-details>h1{
+        font-size: 40px;
+        text-align: left;
+        width: 300px;
+    }
+    .hero-details>p{
+        font-size: 20px;
+        width:600px ;
+    }
+    .repo-num{
+        flex-direction: row;
+        gap: 10px;
+        width: 90vw;
+    }
+    .repo{
+        flex-direction: row;
+        gap: 10px;
+    }
+    .about{
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        gap: 20px;
+    }
+
+    .mission{
+        margin-top: 0;
+    }
+
+    .mission-logo{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mission-logo{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+       justify-content: flex-start;
+    }
+
+    .Offer{
+        flex-direction: row;
+    }
+
+    .project{
+        width: 90vw;
+    }
+
+    .contact{
+        width: 90vw;
+    }
+    footer{
+        width: 90vw;
+    }
+
+    .tech{
+        width: 90vw;
+    }
+    .mytech{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
